@@ -9,7 +9,8 @@ function updateCountriesMarkup(data) {
     return;
   }
 
-  let markup;
+  let markup = '';
+
   if (data.length === 1) {
     markup = country(data);
   }
