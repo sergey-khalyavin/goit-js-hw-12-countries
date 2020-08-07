@@ -14,7 +14,7 @@ function updateCountriesMarkup(data) {
   if (data.length === 1) {
     markup = country(data);
   }
-  if (data.length > 1 && data.length < 10) {
+  if (data.length >= 1 && data.length <= 10) {
     markup = arrCountries(data);
   }
 
